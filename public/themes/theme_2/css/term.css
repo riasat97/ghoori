@@ -1,0 +1,18 @@
+
+.term-heading {
+    text-align: center;
+    font-size: 20px;
+    /*box-shadow: 0px 2px 5px rgba(0,0,0,0.1);*/
+    border: 1px solid #ccd9e3;
+    margin-top: 20px;
+    padding: 6px 15px;
+    background-color: #f5f5f5 !important;
+}
+
+.term-heading p {
+    margin-top: 6px;
+}
+
+.bottom-spacing {
+    margin-bottom: 20px;
+}

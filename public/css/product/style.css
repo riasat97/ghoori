@@ -1,0 +1,118 @@
+.img-product {
+	max-height: 170px;
+	margin: 0 auto;
+	display: block;
+}
+.product-img-box::after {
+	content: " ";
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 170px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&amp;0+0,0.1+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#1a000000',GradientType=0 ); /* IE6-9 */
+
+	z-index: 2;
+	top: 0
+}
+.fb-button {
+
+border: 1px solid;
+border-radius: 0 0 3px 3px;
+/*box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);*/
+font-family: helvetica,arial,sans-serif;
+font-weight: bold;
+position: relative;
+text-align: center;
+vertical-align: middle;
+
+background-color: #4E69A2;
+border-color: #435A8B #3C5488 #334C83;
+background-position: 0px -21px;
+font-size: 14px;
+line-height: 22px;
+padding: 5px 10px;
+/*width: 200px*/
+display: block;
+color: #FFF;
+text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+}
+.fb-button:hover, .fb-button:active {
+	color: white;
+	text-decoration: none;
+	box-shadow: inset 0 -5px 30px rgba(0,0,0,0.1);
+	background-color: #3C5488;
+}
+.product-img-box {
+	height: 170px;
+	position: relative;
+	width: 100%;
+	background-size: 100%;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	transition: all 0.2s ease;
+}
+.product-title {
+	text-align: center;
+	height: 24px;
+	line-height: 24px;
+	overflow: hidden;
+	margin: 5px 0;
+}
+
+.product-box {
+	    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+    margin: 0 0 20px 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-box:hover .product-img-box {
+	background-size: 108%;
+}
+
+.product-box p {
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+.ghoori-logo {
+	margin-bottom: 15px;
+}
+
+.discount-tag {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  background-color: #FF6D37;
+  color: #fff;
+  padding: 4px 6px;
+  /*border-radius: 0 0 0 80%;*/
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  transition: all ease-out 0.2s;
+
+}
+.discount-tag-sm {
+  font-size: 13px;
+  padding: 3px 4px;
+}
+.discount-tag-md {
+  font-size: 16px;
+  font-weight: bold;
+}
+.discount-tag-lg {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 7px;
+}
+.discount-tag:hover {
+  padding-right: 15px;
+}

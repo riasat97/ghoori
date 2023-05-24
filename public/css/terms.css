@@ -1,0 +1,30 @@
+.page-terms{
+  background: ##F7F8FA;
+}
+.terms{
+  background: #fff;
+}
+.terms li{
+  font-size: 11px;
+  color: #444;
+}
+.terms .term{
+  padding-bottom: 15px;
+  border: 1px solid #ddd;
+}
+.term-point h6, .term-basically h6{
+  color: #ccc;
+  font-weight: bold;
+}
+.term-point p{
+  font-size: 11px;
+  color: #444;
+}
+.term-basically p{
+  font-size: 17px;
+  color: #444;
+}
+.shadow{
+  webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+}

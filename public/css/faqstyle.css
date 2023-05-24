@@ -1,0 +1,303 @@
+/******************reset code**********************/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+ul, ol {
+    list-style: none;
+}
+/******************end reset code**********************/
+
+header.faq-header{
+    background-color: #6dc9f2;
+    /*background-image: linear-gradient(to bottom, #FDFDFD 0px, #EFEFEF 100%) !important;*/
+    
+}
+nav.faq-navbar{
+  background-color: #efefef; 
+ /*background-image: linear-gradient(to bottom, #FFFFFF 0px, #D8D8D8 100%) !important;*/
+ /*margin-top: -2px;*/
+}
+section.main{
+    margin: 52px 0;
+}
+/**********search box css*************/
+.btn_search {
+margin: 0;
+padding: 0;
+border-radius: 0;
+border: 0;
+position: absolute;
+right: 8px;
+z-index: 2;
+background-image: url(../image/small-search.png);
+width: 38px;
+height: 28px;
+border: 4px solid #448ccb;
+bottom: 2px;
+}
+.faq_form {
+padding: 55px 0;
+}
+
+/**********end search box css*************/
+/**********Dummy image css*************/
+.tac{
+    text-align: center;
+   padding-top: 10px;
+}
+/**********Menu css************k*/
+.menu{
+    padding: 15px 0;
+}
+.menu span{
+     color: #1c1c1c;
+}
+.menu a{
+    padding: 15px 0 14px 0;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+.menu  a:hover{
+    border-bottom: 3px solid #8e919a;
+    text-decoration: none;
+}
+/**********Icon Menu css*************/
+.icon_section {
+    text-align: center;
+}
+.icon_section img{
+    width: 100%;
+}
+.icon_section p{
+    color: #1c1c1c;
+    padding: 10px 0px;
+    min-height: 80px;
+    font-size: 15px;
+    line-height: 25px;
+}
+.icon_section a{
+    text-decoration: none;
+    opacity: .6;
+    transition: all .15s;
+}
+.icon_section a:hover{
+    opacity: 1;
+}
+/**********Bottom Question css*************/
+.question h2{
+    text-align: left;
+    font-size: 18px;
+    padding-bottom: 15px;
+    color: #1c1c1c;
+    font-family: 'Varela Round', sans-serif;
+}
+.question ul li{
+    text-align: left;
+    padding: 5px 0;
+    font-size: 14px;
+    
+}
+/**********right side css*************/
+.right_side ul li span{
+    padding-right: 10px;
+}
+.right_side ul li a{
+    color: #1c1c1c;
+    padding: 15px 7px;
+display: block;
+font-size: 14px;
+opacity: .8;
+transition: all .25s;
+    
+}
+.right_side ul li a:hover,.right_side ul li a:active{
+    text-decoration: none;
+    background-color: #6dc9f2;
+    color: #fff;
+    opacity: 1;
+}
+/**********shop addvertize css*************/
+.shop_add{
+
+
+margin: 90px 0px;
+background-image: url(../image/shopadd.jpg);
+background-repeat: no-repeat;
+padding: 118px 80px;
+}
+
+.right_side a{
+
+transition: background-color .25s;
+opacity: 0.75;
+}
+.shop_add span{
+    background-color: #f0ad4e;
+    padding: 10px;
+    color: #fff;
+    
+}
+.right_side a:hover{
+    text-decoration: none!important;
+    opacity: 1;
+   
+}
+
+/**********creare a shop css*************/
+.active{
+     background-color: #6dc9f2;
+    
+}
+.active a{
+    color: #fff!important;
+    opacity: 1 !important;
+}
+.details_shop h2{
+    font-size: 30px;  
+    font-family: 'Varela Round', sans-serif;
+}
+.details_shop h2 span{
+    color: #1c1c1c;
+    opacity: 0.8;
+    font-size: 24px; 
+}
+.box ul li p{
+    padding: 25px 0px 25px 50px;
+    line-height: 25px;
+}
+.box div ul li {
+    padding-top: 2px;
+    color: #1c1c1c;
+    line-height: 25px;
+    list-style-type: circle;
+}
+.box div ul {
+    margin-left: 80px;
+    padding-top: 0px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+.box p{
+   padding: 0px 30px 0px 35px;
+    line-height: 25px;
+    color: #1c1c1c;
+}
+
+.box a p {
+    color: #8e919a;
+}
+.box a p:hover {
+    color: #1c1c1c;
+}
+
+.box h2{
+    color: #1c1c1c;
+    font-size: 26px;
+    padding: 30px 0;
+    font-family: 'Varela Round', sans-serif;
+}
+.box h3 {
+    color: #1c1c1c;
+    padding-top: 15px;
+    padding-bottom: 4px;
+    font-size: 20px;
+}
+.box ul {
+    padding: 0px 30px;
+}
+.box ul li{
+    padding-bottom: 10px;
+}
+.box ul li a{
+    color: #1c1c1c;
+    text-decoration: none;
+    opacity: .8;
+    font-size: 15px;
+}
+.box ul li a:hover{
+    opacity: 1;
+}
+.box ul li a span{
+    color:#1c1c1c;
+    padding-right: 30px;
+    font-size: 14px;
+}
+/**********create a shop css*************/
+.helpful{
+   padding-top: 50px; 
+}
+.helpful p{
+    float: left;
+    color:#1c1c1c;
+    font-size: 18px;
+}
+.choice{
+    float: left;
+    padding-left: 10px;
+}
+.choice a{
+    font-size: 18px;
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+@media (max-width:1200px){
+    .shop_add{
+        margin: 90px 37px 30px 37px;
+    }
+}
+
+.icon_section p {
+    padding: 10px;
+}
+
+
+
+
+
+section.delivery table, section.delivery tr, section.delivery td, section.delivery th {
+    border: 1px solid #c2c2c2;
+}
+section.delivery tr, section.delivery td, section.delivery th {
+    text-align: center;
+    padding: 11px;
+}
+
+
+
+li.remove-list-style {
+    list-style: none !important;
+}
+
+.payment-to-ghoori-2nd-list-content-style ul li {
+    list-style: none !important;
+}
+
+.payment-to-ghoori-2nd-list-content-style ul li span {
+    text-align: right;
+    padding-left: 15px;
+}
+
+
+
+
+
+section.ghoori-ad-price table, section.ghoori-ad-price tr, section.ghoori-ad-price td, section.ghoori-ad-price th {
+    border: 1px solid #c2c2c2;
+}
+section.ghoori-ad-price tr, section.ghoori-ad-price td, section.ghoori-ad-price th {
+    text-align: center;
+    padding: 11px;
+}
+
+div.campaign-4 ol {
+    margin-top: 30px;
+    list-style: lower-roman;
+}
+
+div.campaign-4 ol a  {
+    color: #5bc0de;
+}

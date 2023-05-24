@@ -1,0 +1,1 @@
+/var/www/chorki/app/views/tags/show.blade.php

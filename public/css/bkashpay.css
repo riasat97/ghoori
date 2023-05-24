@@ -1,0 +1,212 @@
+
+/* *************************************************************** */
+.highlighted-area {
+    margin-top: 50px;
+}
+
+.instruction-box {
+    position: relative;
+    border: 2px solid #f37043;
+    border-radius: 25px;
+    height: 220px;
+}
+
+.instruction-box-5, .instruction-box-6, .instruction-box-7 {
+    padding-left: 15px;
+}
+
+.instruction-box-1 > p {
+    padding-top: 45px;
+    font-size: 300%;
+    color: #ef561c;
+}
+
+.instruction-box-2, .instruction-box-2 > ol {
+    font-size: 100%;
+    color: #999;
+}
+.instruction-box-2, .instruction-box-2 > p {
+    font-size: 100%;
+    color: #ef561c;
+}
+.instruction-box-2 {
+    padding-top: 10px;
+}
+.instruction-box-2 ol {
+    /*list-style: none;*/
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 45px;
+}
+
+ol li.selected-color {
+    /*background: #ef561c;*/
+    color:#f37043;
+    /*padding-left: 20px;*/
+}
+
+.instruction-box-3 > p, .instruction-box-4 > p, .instruction-box-5 > p, .instruction-box-6 > p, .instruction-box-7 > p {
+    font-size: 100%;
+    text-align: left;
+}
+
+.instruction-box {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.instruction-box-8 > p {
+    font-size: 100%;
+}
+
+p.text-color {
+    color: #ef561c;
+    margin-top: 10px;
+}
+.instruction-box-3 > p:first-child, .instruction-box-4 > p:first-child, .instruction-box-5 > p:first-child, .instruction-box-6 > p:first-child, .instruction-box-7 > p:first-child, .instruction-box-8 > p:first-child {
+    color: #555;
+}
+
+.instruction-box-1, .instruction-box-2 {
+    text-align: center;
+    /*font-weight: bold;*/
+    color: #ef561c;
+}
+.row-1, .row-2 {
+    margin: 30px 0;
+}
+.row-2 {
+    margin-bottom: 30px;
+}
+.instruction-box-info {
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 10px;
+}
+
+p.instruction-text {
+    margin-top: 10px;
+    font-size: 100%;
+    color: #555;
+    text-align: center;
+}
+p.instruction-text span {
+    color: #ef561c;
+}
+
+.row-3 {
+    /*background-color: #00a79d;*/
+
+    /*height: 350px;*/
+    margin-bottom: 50px;
+}
+.tips-instruction-box h1 {
+    /*color: #fff;*/
+    font-size: 60px;
+    font-weight: bolder;
+    line-height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 50px;
+}
+
+h1 span.ghoori-text-color {
+    color: #ef561c;
+}
+h1 span.bkash-text-color {
+    color: #e71d69;
+}
+/*ol li {
+    color: #fff;
+    font-size: 22px;
+    padding: 3px;
+}
+ol {
+    padding-top: 65px;
+}*/
+
+.communication-links {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.communication-links a {
+    color: #000;
+    text-decoration: none;
+}
+.communication-links a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+
+.add-border-right {
+    /*border-right: 1px solid #eee;*/
+}
+
+.add-border-right img {
+    margin: auto;
+}
+
+p.ghoori-site {
+    font-size: 20px;
+    color: #ef561c;
+    text-align: center;
+}
+
+img.bottom-payment-img {
+    margin: auto;
+}
+
+div.bottom-payment-img-wrapper {
+    margin-top: 60px;
+}
+
+
+
+.diamond {
+    position: absolute;
+    top: -23px;
+    right: -23px;
+
+    width: 45px;
+    height: 45px;
+    background: #46b8da;;
+/* Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); 
+    border-radius: 10px;
+}
+
+.diamond p {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 4px;
+    /*left: 4px;*/
+    font-size: 24px;
+
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+@media (max-width: 1082px) {
+    .wrapper {
+        margin-bottom: 45px;
+    }
+
+    .row-2 {
+        margin-top: -100px;
+    }
+}
+
+

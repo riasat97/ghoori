@@ -1,0 +1,240 @@
+.gh_home_section {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#product_collection .bg, .gh_home_section .bg {
+	background: #fff;
+	border-top:2px solid #46DBE1;
+}
+.bbuttom{
+	border-bottom: 1px solid #ccc;
+}
+#product_collection h2, .gh_home_panel h2{
+	font-size: 16px;
+	line-height: 48px;
+	margin: 0;
+}
+#product_collection h4, .gh_home_panel h4.panel_title_more {
+	float: right;
+	font-size: 13px;
+	line-height: 48px;
+	margin: 0;
+}
+.mt20 {
+    margin-top: 20px;
+}
+
+.recomendation_product_box{
+	background-color: #fff;
+	text-align: center;
+	margin-bottom: 15px;
+	position: relative;
+}
+.recomendation_product_box a{
+	transition:.3s all;
+	display: block;
+	height: 100%;
+	border: 1px solid #ddd;
+	/*border-radius: 4px;*/
+	/*box-shadow: 0px 1px 1px rgba(0,0,0,0.1);*/
+}
+.recomendation_product_box a:hover{
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+	border: 1px solid #bbb;
+}
+.recomendation_product_box img{
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.recomendation_product_box h2{
+	display: block;
+	color: #545454;
+	font-weight: 700;
+	font-size: 18px;
+	
+	margin: 0 0 10px 0;
+
+}
+.recomendation_product_box span{
+	
+	color: #000;
+}
+
+.row.no-leftright {
+	margin-left: 0;
+	margin-right: 0;
+}
+.price del {
+    font-size: 13px;
+    color: #999;
+    line-height: 139%;
+}
+
+
+
+.gh-prod-pan-group {
+    margin-bottom: 20px;
+}
+.gh-prod-pan-group .gh-prod-pan {
+	    margin-bottom: 0;
+	    border-radius: 0;
+}
+.gh-prod-pan {
+	margin: 10px 0;
+    /*margin-bottom: 20px;*/
+    /*background-color: #fff;*/
+    /*border: 1px solid transparent;*/
+    /*border-radius: 4px;*/
+    /*-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);*/
+    /*box-shadow: 0 1px 1px rgba(0,0,0,.05);*/
+    border-bottom: 1px solid #eee;
+}
+
+.gh-prod-pan-default>.gh-prod-pan-heading {
+    color: #333;
+    /*background-color: #f5f5f5;*/
+    border-top: 2px solid #46DBE1;
+    /*border-color: #ddd;*/
+}
+.gh-prod-pan-default>.gh-prod-pan-heading a {
+	color: #333;
+}
+.gh-prod-pan-heading {
+	border-bottom: 1px solid #f5f5f5;
+}
+
+.gh-prod-pan-heading a {
+	display: block;
+	width: 100%;
+}
+.gh-prod-pan-heading a:focus {
+	text-decoration: none;
+}
+.gh-prod-pan-group .gh-prod-pan-heading {
+}
+
+.gh-prod-pan-heading {
+    padding: 10px 15px;
+    /*border-bottom: 1px solid transparent;*/
+    /*border-top-left-radius: 3px;*/
+    /*border-top-right-radius: 3px;*/
+}
+.gh-prod-pan-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+
+.gh-prod-pan-default>.gh-prod-pan-heading+.gh-prod-pan-collapse>.gh-prod-pan-body {
+    /*border-top-color: #ddd;*/
+}
+.gh-prod-pan-group .gh-prod-pan-heading+.gh-prod-pan-collapse>.list-group, .gh-prod-pan-group .gh-prod-pan-heading+.gh-prod-pan-collapse>.gh-prod-pan-body {
+    /*border-top: 1px solid #ddd;*/
+}
+.gh-prod-pan-body {
+    padding: 15px;
+}
+
+
+
+.gh-prod-pan-color1>.gh-prod-pan-heading {
+    color: #E74700;
+    border-top: 2px solid #E74700;
+    
+}
+.gh-prod-pan-color1>.gh-prod-pan-heading a {
+	color: #E74700;
+}
+
+.gh-prod-pan-color2>.gh-prod-pan-heading {
+    color: #ff9838;
+    border-top: 2px solid #ff9838;
+    
+}
+.gh-prod-pan-color2>.gh-prod-pan-heading a {
+	color: #ff9838;
+}
+
+.gh-prod-pan-color3>.gh-prod-pan-heading {
+    color: #4D6684;
+    border-top: 2px solid #4D6684;
+    
+}
+.gh-prod-pan-color3>.gh-prod-pan-heading a {
+	color: #4D6684;
+}
+
+.gh-prod-pan-color4>.gh-prod-pan-heading {
+    color: #1499D3;
+    border-top: 2px solid #1499D3;
+    
+}
+.gh-prod-pan-color4>.gh-prod-pan-heading a {
+	color: #1499D3;
+}
+
+.gh-prod-pan-color5>.gh-prod-pan-heading {
+    color: #83AA30;
+    border-top: 2px solid #83AA30;
+    
+}
+.gh-prod-pan-color5>.gh-prod-pan-heading a {
+	color: #83AA30;
+}
+
+.product-title {
+	font-size: 16px;
+    height: 24px;
+    width: 100%;
+    overflow: hidden;
+    padding: 0 5px;
+}
+.product-shop {
+	font-size: 11px;
+    height: 20px;
+    width: 100%;
+    overflow-y: hidden;
+	font-size: 95%;
+	color: #ccc;
+	padding: 0 5px;
+}
+.product-info {
+	
+	padding-bottom: 10px;
+}
+
+.grid {
+	transition: all ease-out 1s;
+	min-height: 500px;
+}
+
+.grid-item {
+	/*margin-bottom: 15px;*/
+}
+
+.container {
+    /*padding: 0px;*/
+}
+
+.ghoori-only-flying {
+	width: 32px;
+}
+
+
+
+
+.half-hidden {
+	opacity: 0.3;
+}
+
+.discount_filters img.filter_buttons:not(.active) {
+	-webkit-filter: grayscale(90%);
+	filter: grayscale(90%);
+}
+
+.discount_filters img.filter_buttons:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}

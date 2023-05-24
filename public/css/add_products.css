@@ -1,0 +1,33 @@
+* {
+    /*list-style: none;*/
+}
+/*ol.ol > li {
+    list-style: decimal inside;
+}
+ul.ul > li {
+    list-style: inside;
+}*/
+.attribute-popup li {
+    float: left;
+    cursor: pointer;
+}
+.attribute-popup li span {
+	opacity: 0.4;
+}
+.div-checkbox-container {
+    margin-right: 15px;
+}
+.div-checkbox-container input[type="checkbox"] {
+    display: none;
+}
+.div-properties {
+    padding: 10px;
+}
+.checkbox-name {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.modal-body {
+	  min-height: 200px !important;
+}

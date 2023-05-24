@@ -1,0 +1,171 @@
+/*@import url(https://fonts.googleapis.com/css?family=Lato);*/
+/*body {
+  font-family: 'Lato', sans-serif;
+}*/
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+  position: relative;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11 {
+  display: inline-block;
+}
+
+.col-xs-6 {
+  width: 50%;
+}
+
+ .col-xs-12 {
+  display: block;
+ }
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  display: none !important;
+}
+.affix {
+  position: fixed;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.table {
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+}
+.table th {
+  text-align: left;
+}
+.table-centered td, .table-centered th  {
+  text-align: center;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+
+.text-right {
+  text-align: right;
+}
+.ghoori-title {
+  color: #F47144;
+}
+.big-head {
+  font-size: 300%;
+  margin-top: 0;
+}
+
+.img-responsive {
+  max-width: 300px;
+}
+
+.ghoori-orange {
+    color: #F47144;
+}
+
+.h2 {
+  margin:0;
+}
+
+.ghoori-blue {
+  color: #55C6D1;
+}
+.table-stripped {
+  margin-bottom: 20px;
+}
+.table-stripped td {
+  border:1px solid #ccc;
+  padding: 3px;
+}
+
+.width50 {
+  width: 50%;
+}
+
+.mid-banner {
+  display: block;
+  width: 100%;
+}
+
+.footer-line {
+  position: absolute;
+  bottom: 0;
+  color: #999;
+}
+.big-amount {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}

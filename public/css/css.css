@@ -1,0 +1,48 @@
+html { height: 100%; }
+body {height: 100%; }
+.checkout-current {
+	background-color: #EDF8EB;
+	transition: background-color 0.5s ease;
+}
+.checkout-formbox {
+	min-height: 100% !important;
+	height: 100% !important;
+	padding-top: 20px;
+}
+.row-flex-stretch > div[class*='col-'] {
+	transition: background-color 0.5s ease;
+}
+.row-flex-stretch > div[class*='col-']:hover {
+	background-color: #efefef;
+	transition: background-color 0.5s ease;
+}
+.checkout-formbox
+.checkout-formbox-title {
+	margin-bottom: 30px;
+}
+.checkout-formbox-icon {
+	width: 64px;
+	height: 64px;
+	/*line-height: 64px;*/
+	margin: 0 auto;
+	color: #999999;
+}
+.checkout-formbox-icon i {
+	line-height: 64px;
+}
+/*.row-flex-stretch {
+	display: flex;
+	align-items: stretch;
+}
+*/
+
+.row-flex-stretch {  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+	flex: 0 1 auto;
+	flex-wrap: wrap;
+	flex-direction: row;
+}

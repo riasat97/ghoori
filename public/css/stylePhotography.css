@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+body.photography_body_main {
+	background: #fff;
+}
+
+
+
+/* Pgotography Page Styles */
+
+section.about-photography {
+    margin-top: 60px;
+    border-bottom: 2px dashed #707070;
+    padding-bottom: 30px;
+}
+
+section.about-photography p {
+    color: #707070;;
+    font-size: 30px;
+    text-align: center;
+    /*margin: auto;*/
+}
+
+section.about-photography p span {
+    color: #46b8da;
+}
+
+section.about-photography .photo-partner {
+    margin-top: 15px;
+}
+
+section.about-photography .photo-partner p {
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+    /*margin: auto;*/
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+section.about-photography .photo-partner img {
+    margin-top: 10px;
+    text-align: center;
+    /*margin: auto;*/
+}
+
+section.packages-box {
+    margin-top: 90px;
+    margin-bottom: 15px;
+}
+
+section.packages-box p {
+    text-align: center;    
+    /*margin: auto;*/
+}
+
+p.package-1-heading, p.package-2-heading, p.package-3-heading, p.package-4-heading, p.package-5-heading {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 15px !important;
+}
+
+p.package-1-heading {
+    color: #3d82aa;
+}
+
+p.package-2-heading {
+    color: #86b451;
+}
+
+p.package-3-heading {
+    color: #d46827;
+}
+
+p.package-4-heading {
+    color: #da2f2f;
+}
+
+p.package-5-heading {
+    color: #209f71;
+}
+
+p.photo-quantity {
+    color: #707070;
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
+}
+p.photo-text {
+    color: #707070;;
+    text-align: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: bolder;
+}
+
+
+p.package-price {
+    color: #707070;;
+    font-size: 64px;
+    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
+}
+p.package-price-currency {
+    color: #707070;
+    font-size: 15px;
+}
+
+p.book-button {
+    /*margin: auto;*/
+    margin-top: 60px;
+    text-align: center;
+}
+
+p.book-button a, p.book-button button {
+    text-transform: uppercase;
+    font-weight: bolder;
+    background: #FF6D37;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    border: 0;
+
+
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+p.book-button a:hover, p.book-button button:hover {
+    background: #46b8da;
+    color: #fff;
+}
+
+
+
+
+section.contact-info-box {
+    margin-top: 75px;
+    margin-bottom: 60px;
+}
+
+section.contact-info-box p {
+    color: #707070;
+    font-size: 26px;
+    text-align: center;
+}
+
+.package-box-1, .package-box-2, .package-box-3, .package-box-4, .package-box-5 {
+    margin-bottom: 90px;
+}
+
+section.contact-info-box span.contact-logo img {
+    margin-right: 5px;
+}

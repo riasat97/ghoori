@@ -1,0 +1,224 @@
+#fb-button-holder {
+    height: 230px;
+    padding: 72px 0 0 0;
+    text-align: center;
+}
+
+#fb-button-holder > div{
+    margin-bottom: 15px;
+}
+
+.fbLoginButtoninmodal, .emailloginbutton {
+  min-width: 172px;
+  text-align: left;
+}
+
+#logoHolder {
+    width: 146px;
+    height: 109px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 45px;
+}
+#logoHolder > .logo{
+
+    position: absolute;
+    width: 93px;
+    bottom: 0;
+    left: 0;
+
+}
+#logoHolder > .ghoori-flying{
+    position: absolute;
+    width: 60px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+    -webkit-animation: ghoorifly 4s ease-in infinite;
+    animation: ghoorifly 4s ease-in infinite;
+    top: 0px;
+    right: 0px;
+}
+.ghoori-only-flying {
+    -webkit-animation: ghoorifly 4s ease-in infinite;
+    animation: ghoorifly 4s ease-in infinite;
+}
+@-webkit-keyframes chorkispin {
+    from {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+    to {-webkit-transform: rotate(2880deg);transform: rotate(2880deg);}
+}
+
+/* Standard syntax */
+@keyframes chorkispin {
+    from {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+    to {-webkit-transform: rotate(2880deg);transform: rotate(2880deg);}
+}
+
+
+@-webkit-keyframes ghoorifly {
+    0% {-webkit-transform: rotate(0deg)  translate(0px, 0px);}
+    20% {-webkit-transform: rotate(5deg) translate(10px, 10px);}
+    40% {-webkit-transform: rotate(-15deg) translate(20px, 0px);}
+    60% {-webkit-transform: rotate(-30deg) translate(-10px, -10px);}
+    80% {-webkit-transform: rotate(-20deg) translate(10px, -5px);}
+}
+
+/* Standard syntax */
+@keyframes ghoorifly {
+    0% {-webkit-transform: rotate(0deg)  translate(0px, 0px);transform: rotate(0deg)  translate(0px, 0px);}
+    20% {-webkit-transform: rotate(5deg) translate(10px, 10px);transform: rotate(5deg) translate(10px, 10px);}
+    40% {-webkit-transform: rotate(-15deg) translate(20px, 0px);transform: rotate(-15deg) translate(20px, 0px);}
+    60% {-webkit-transform: rotate(-30deg) translate(-10px, -10px);transform: rotate(-30deg) translate(-10px, -10px);}
+    80% {-webkit-transform: rotate(-20deg) translate(10px, -5px);transform: rotate(-20deg) translate(10px, -5px);}
+}
+
+@-webkit-keyframes ghoorifly_toomuch {
+    0% {-webkit-transform: rotate(0deg)  translate(0px, 0px);}
+    20% {-webkit-transform: rotate(-5deg) translate(50px, -50px);}
+    40% {-webkit-transform: rotate(-15deg) translate(100px, 0px);}
+    60% {-webkit-transform: rotate(-30deg) translate(-50px, -50px);}
+    80% {-webkit-transform: rotate(-20deg) translate(50px, -25px);}
+}
+
+/* Standard syntax */
+@keyframes ghoorifly_toomuch {
+    0% {-webkit-transform: rotate(0deg)  translate(0px, 0px);transform: rotate(0deg)  translate(0px, 0px);}
+    20% {-webkit-transform: rotate(-5deg) translate(50px, -50px);transform: rotate(-5deg) translate(50px, -50px);}
+    40% {-webkit-transform: rotate(-15deg) translate(100px, 0px);transform: rotate(-15deg) translate(100px, 0px);}
+    60% {-webkit-transform: rotate(-30deg) translate(-50px, -50px);transform: rotate(-30deg) translate(-50px, -50px);}
+    80% {-webkit-transform: rotate(-20deg) translate(50px, -25px);transform: rotate(-20deg) translate(50px, -25px);}
+}
+
+.login-modal {
+    background: url('../img/log_in_page.png');
+    background-size: cover;
+}
+
+#signInModal .modal-dialog {
+    margin-top:calc(50vh - 131px);
+}
+
+.fa-spin {
+    -webkit-transform-origin: 50% calc(50% - .5px);
+    transform-origin: 50% calc(50% - .5px);
+}
+
+.login-back{
+    width: 100%;
+    min-height: calc(100vh - 213px);
+    /*margin-bottom: -30px;*/
+}
+.login-back #logoHolder {
+    width: 146px;
+    height: 109px;
+    margin: 0;
+    margin-top: 45px;
+}
+
+.login-message {
+    color: #fff;
+}
+
+.loginform-back {
+    width: 100%;
+    min-height: 200px;
+    margin: 60px 0;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.loginpage-loginbutton {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.btn-facebook {
+    background: #3b5998;
+    /*border-radius: 0;*/
+    color: #fff
+}
+.btn-facebook:link, .btn-facebook:visited {
+    color: #fff
+}
+.btn-facebook.active, .btn-facebook.focus, .btn-facebook:active, .btn-facebook:focus, .btn-facebook:hover, .open > .dropdown-toggle.btn-facebook {
+    color: #FFF;
+    background-color: #2D4373;
+    border-color: #2A3F6C;
+}
+.btn-twitter {
+    color: #FFF;
+    background-color: #00ACEE;
+    border-color: #00ACEE;
+}
+.btn-twitter:link, .btn-twitter:visited {
+    color: #fff
+}
+
+.btn-twitter.active, .btn-twitter.focus, .btn-twitter:active, .btn-twitter:focus, .btn-twitter:hover, .open > .dropdown-toggle.btn-twitter {
+
+    color: #FFF;
+    background-color: #0087BB;
+    border-color: #0080B1;
+
+}
+
+.print-order {
+    margin: 10px 0;
+}
+.orderdetails-ghoori-logo {
+    width: 80px;
+}
+
+tr.cart-item img {
+    max-height: 40px;
+}
+
+.accordion-group {
+    margin-bottom: 10px;
+}
+
+.loginform-wrap {
+    background-color: rgba(255,255,255,0.5);
+    /*padding: 15px;*/
+    border-radius: 5px;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.1);
+}
+
+.loginform-back .tab-pane {
+    background-color: #fff;
+    padding: 15px;
+    margin-top: -2px;
+    border-left: 1px;
+    border-right: 1px;
+
+
+    border-top: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #ddd;
+}
+
+.loginform-back .nav > li > a {
+    background-color: rgba(255,255,255,0.5);
+    color: #4CADCE;
+}
+
+.loginform-back .nav > li.active > a {
+    background-color: rgba(255,255,255,1);
+    color: #333;
+}
+
+.quick-banner {
+    margin-bottom: 0;
+}
+
+.error-message {
+    color: #dd0000
+}
+
+.tab-content, .loginform-wrap {
+    transition: all 0.5s ease;
+}

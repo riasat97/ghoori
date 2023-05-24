@@ -1,0 +1,75 @@
+   
+	body{
+		/*background-color: #999;*/
+		font-family: "Lato", Sans-serif;
+		font-size: 10px;
+	}
+
+	.huge-text {
+
+	  font-size: 500%;
+	  /*font-family: "Myriad Pro";*/
+	  color: #F37043;
+	  font-weight: 900;
+	  line-height: 1.554;
+	  text-align: left;
+	  margin: 10px 0;
+
+	}
+	
+	h1 {
+		font-size: 200%;
+		margin-top: 18px;
+		margin-bottom: 15px;
+	}
+	h2 {
+		font-size: 175%;
+		margin-top: 15px;
+		margin-bottom: 12px;
+	}
+	h3 {
+		font-size: 150%;
+		margin-top: 10px;
+		margin-bottom: 8px;
+	}
+	h4 {
+		font-size: 125%;
+		margin-top: 8px;
+		margin-bottom:  5px;
+	}
+	h5 {
+		font-size: 100%;
+		margin-top: 5px;
+		margin-bottom:  3px;
+	}
+
+	h1, h2, h3, h4, h5 {
+		color: rgb(243, 112, 67);
+		font-weight: bold;
+	}
+	hr {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.hr-thick {
+		border: 0 solid #333;
+		border-top-width:  1px;
+		border-bottom-width:  1px;
+	}
+	.big-text {
+		font-size: 250%;
+		font-weight: 700;
+	}
+	.table {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.table-no-border>tbody>tr>td, .table-no-border>tbody>tr>th, .table-no-border>tfoot>tr>td, .table-no-border>tfoot>tr>th, .table-no-border>thead>tr>td, .table-no-border>thead>tr>th {
+		border: 0;
+	}
+
+	.table-thin>tbody>tr>td, .table-thin>tbody>tr>th, .table-thin>tfoot>tr>td, .table-thin>tfoot>tr>th, .table-thin>thead>tr>td, .table-thin>thead>tr>th {
+		padding: 2px;
+	}
+

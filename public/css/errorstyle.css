@@ -1,0 +1,61 @@
+
+.image-position {
+	margin-top: 40px;
+	width: 157px;
+	height: 273px;
+	background: url("../images/404e.png");
+}
+.text-position {
+	  margin-top: -150px;
+}
+.text-position header, span {
+	color: #787878;
+}
+header {
+	font-size: 48px;
+}
+p {
+	font-size: 18px;
+}
+.error-type {
+	font-size: 60px;
+	color: #e92323;
+	text-align: center;
+	margin-top: 162px;
+	letter-spacing: 6px;
+}
+
+#logoHolder {
+    width: 160px;
+    margin: auto;
+    position: relative;
+}
+#logoHolder > .pin-wheel {
+    position: absolute;
+	width: 60px;
+	height: 60px;
+	display: block;
+	margin: 0px auto;
+	animation-name: chorkispin;
+	animation-duration: 16s;
+	animation-iteration-count: infinite;
+	top: -16px;
+	right: 10px;
+}
+
+.sub-nav-bar {
+	background: lightgray;
+	padding: 8px;
+	margin-bottom: 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+
+}
+
+.main-nav-bar {
+	background: lightgray;
+	height: 40px;
+	margin-top: 0px;
+	box-shadow: 1px gray;
+
+}

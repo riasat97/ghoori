@@ -1,0 +1,32 @@
+
+.checkout {
+	/*margin-top: 15px !important;*/
+}
+
+.image-key-1, .image-key-2, .image-key-3 {
+    display: none;
+}
+
+body.dhumketu-theme .shop-banner-slider {
+    margin-top: 64px;
+}
+
+div.product-info div.product-description {
+    width:100%;
+    max-height:100px;
+    color: #8C9AAD;
+    overflow:hidden;
+    text-overflow: clip ellipsis;
+    text-align: center;
+
+    white-space: nowrap;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; /* number of lines to show */
+}
+
+div.category-breadcrumb-for-home-page {
+    /*margin-top: -25px;*/
+    /*margin-bottom: 5px;*/
+}
